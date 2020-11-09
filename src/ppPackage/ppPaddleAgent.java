@@ -35,6 +35,7 @@ public class ppPaddleAgent extends ppPaddle {
     this.myBall = myBall;
   }
 
+  /** Overrides the run method of java.lang.Thread. Holds the main loop for the ppPaddle. */
   public void run() {
     while (canPlay) {
       // Get ball position and speed
